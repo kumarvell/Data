@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="username" value="Gokul2109"
+  <parameter name="password" value="goku@l2109"
+  <parameter name="location" value="NewYork"
+  <parameter name= "hotels" value= "hotel sunshine"
+  <parameter name="Room Type" value="Super deluxe"
+  <parameter name="Number of rooms" value= "2"
+  <parameter name="Check in date" value="18/10/2021"
+  <parameter name="Check out date" value="25/10/2021"
+  <parameter name="Adults per room" value="2"
+  <parameter name="Children per room" value="4"
+        <classes>
+      <class name="org.test.mvn.DataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
